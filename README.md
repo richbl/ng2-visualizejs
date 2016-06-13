@@ -1,7 +1,7 @@
 # Ang2-Visualizejs
 A simple demonstration that draws a [Jaspersoft](http://www.jaspersoft.com/) report/dashboard resource with the [Visualize.js](http://community.jaspersoft.com/project/visualizejs) library using the [Angular Framework](https://angular.io/) (initial commit uses Angular 2.0.0-beta.17)
 
-# Based on Angular 2 QuickStart
+## Based on Angular 2 QuickStart
 This repository is based on a great learning resource, the [Angular 2 QuickStart](https://github.com/angular/quickstart), which is the companion source code for the Angular 2 tutorial called the ["5 Min Quickstart](https://angular.io/docs/ts/latest/quickstart.html)."
 
 > Note that this project has not been forked from the [Angular 2 QuickStart](https://github.com/angular/quickstart) project, so no updates made to that project will be reflected in this project.
