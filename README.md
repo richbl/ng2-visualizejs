@@ -54,10 +54,8 @@ The `npm start` command first compiles the application,
 then simultaneously re-compiles and runs the `lite-server`.
 Both the compiler and the server watch for file changes.
 
+> By default, the server will be running on http://localhost:3000. Open a browser page on this URL and you should see the application running.
+
 Shut it down manually with Ctrl-C.
 
-You're ready to go.
-
-## Testing
-
-While the original repository included testing resources, this project has stripped most testing resources in an attempt to keep the repository simple and lightweight.
+**You're ready to go!**
