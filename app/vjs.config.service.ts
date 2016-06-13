@@ -3,6 +3,7 @@ import {Injectable} from '@angular/core';
 @Injectable()
 
 export class VJSConfig {
+
   userAuth = {
     name: "joeuser",
     password: "joeuser",
@@ -25,4 +26,5 @@ export class VJSConfig {
       uri: "/public/Samples/Dashboards/3.1_Sales_Metrics",
       params: {}
     }];
+    
 };
