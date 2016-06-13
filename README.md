@@ -18,16 +18,13 @@ Two sets of requirements are needed:
 Required software and servers are well described on the [Jaspersoft website](http://community.jaspersoft.com/sites/default/files/wiki_attachments/main_1.html).
 
 ### Angular Framework
-Node.js and npm are essential to Angular 2 development.
-    
-<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
-Get it now</a> if it's not already installed on your machine.
+Node.js and npm are essential to Angular 2 development. <a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm"> Get them now</a> if they're not already installed on your machine.
  
 **Verify that you are running at least node `v5.x.x` and npm `3.x.x`**
 by running `node -v` and `npm -v` in a terminal/console window.
 Older versions produce errors.
 
-> This project was originally committed using Angular 2.0.0-beta.17.
+> This project was originally developed using Angular 2.0.0-beta.17.
 
 ## Getting Started
 
@@ -43,7 +40,7 @@ cd my-proj
 
 Install the npm packages described in the `package.json` and verify that it works:
 
-**Attention Windows Developers:  You must run all of these commands in administrator mode**.
+> Attention Windows developers: you must run all of these commands in administrator mode.
 
 ```bash
 npm install
@@ -61,7 +58,7 @@ It's expected that future releases of this demonstration should permit for the d
 > Note that this demonstration is not designed to be production-ready: including username and password in *any* local script is a serious security risk.
 
 ### Edit HTML Content Files
-The file `app/app.component.html` is where the Visualize.js resources are embedded, using special HTML notation:  `<vjs-component id="dashboard_one"></vjs-component>`, where the `id` attribute is equivalent to the `id` attribute referenced in the Visualize.js documentation. 
+The file `app/app.component.html` is where the Visualize.js resources are embedded, using a custom HTML tag:  `<vjs-component id="dashboard_one"></vjs-component>`, where the `id` attribute represents the id of the resource defined in the configuration component, `vjs.config.service.ts`.
 
 ### Start the Server
 
