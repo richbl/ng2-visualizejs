@@ -49,6 +49,20 @@ Install the npm packages described in the `package.json` and verify that it work
 npm install
 ```
 
+### Edit Visualize.js Configuration
+
+Configuration details for the Visualize.js library are currently managed in two files:
+
+-`index.html`: set the library include for the Visualize.js library script (*e.g.*,  `<script src="http://visualizejsdemo.jaspersoft.com/jasperserver-pro/client/visualize.js"></script>)`
+-`app/vjs.config.service.ts`: set user and resource details (*i.e.*, reports and dashboards) 
+
+It's expected that future releases of this demonstration should permit for the dynamic loading of the Visualize.js library in the `vjs.config.service.ts` component.
+
+> Note that this demonstration is not designed to be production-ready: including username and password in *any* local script is a serious security risk.
+
+### Edit HTML Content Files
+The file `app/app.component.html` is where the Visualize.js resources are embedded, using special HTML notation:  `<vjs-component id="dashboard_one"></vjs-component>`, where the `id` attribute is equivalent to the `id` attribute referenced in the Visualize.js documentation. 
+
 ### Start the Server
 
 The `npm start` command first compiles the application, 
