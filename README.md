@@ -37,7 +37,7 @@ git clone  https://github.com/richbl/ang2-visualizejs  my-proj
 cd my-proj
 ```
 
-## Install npm packages
+### Install npm Packages
 
 > See npm and nvm version notes above
 
@@ -47,12 +47,17 @@ Install the npm packages described in the `package.json` and verify that it work
 
 ```bash
 npm install
-npm start
 ```
+
+### Start the Server
 
 The `npm start` command first compiles the application, 
 then simultaneously re-compiles and runs the `lite-server`.
 Both the compiler and the server watch for file changes.
+
+```bash
+npm start
+```
 
 > By default, the server will be running on http://localhost:3000. Open a browser page on this URL and you should see the application running.
 
