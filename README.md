@@ -1,6 +1,6 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/richbl/ang2-visualizejs/badge.svg)](https://snyk.io/test/github/richbl/ang2-visualizejs)
+[![Known Vulnerabilities](https://snyk.io/test/github/richbl/ng2-visualizejs/badge.svg)](https://snyk.io/test/github/richbl/ng2-visualizejs)
 
-# Ang2-Visualizejs
+# Ng2-Visualizejs
 A simple demonstration that draws a [Jaspersoft](http://www.jaspersoft.com/) report/dashboard resource with the [Visualize.js](http://community.jaspersoft.com/project/visualizejs) library using the [Angular Framework](https://angular.io/) (initial commit uses Angular 2.0.0-beta.17)
 
 ## Based on Angular 2 QuickStart
@@ -32,7 +32,7 @@ Older versions produce errors.
 
 Clone this repo into new project folder (*e.g.*, `my-proj`).
 ```bash
-git clone  https://github.com/richbl/ang2-visualizejs  my-proj
+git clone  https://github.com/richbl/ng2-visualizejs  my-proj
 cd my-proj
 ```
 
