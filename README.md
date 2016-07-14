@@ -47,6 +47,12 @@ Install the npm packages described in the `package.json` and verify that it work
 ```bash
 npm install
 ```
+### Install Typings (TypeScript Definition Manager)
+
+```bash
+typings install
+```
+This will create a `typings` folder.
 
 ### Edit Visualize.js Configuration
 
