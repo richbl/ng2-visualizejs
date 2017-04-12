@@ -1,5 +1,3 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/richbl/ng2-visualizejs/badge.svg)](https://snyk.io/test/github/richbl/ng2-visualizejs)
-
 # Ng2-Visualizejs
 A simple demonstration that draws a [Jaspersoft](http://www.jaspersoft.com/) report/dashboard resource with the [Visualize.js](http://community.jaspersoft.com/project/visualizejs) library using the [Angular Framework](https://angular.io/) (initial commit uses Angular 2.0.0-beta.17)
 
