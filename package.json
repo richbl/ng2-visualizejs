@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@angular/common":  "19.2.16",
+    "@angular/common":  "21.2.1",
     "@angular/compiler":  "2.0.0-rc.4",
     "@angular/core":  "21.2.1",
     "@angular/forms": "0.2.0",
